@@ -8,5 +8,5 @@ This is a CNN based on the visual system of the fly *Drosophila*. The network cl
 - **models** folder contains the neural network with a training framework.
 - **weights** folder contains the trained weights as TF model, and TFlite model.
 
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition/blob/main/images/Fly_CNN_diagram.png" width=60% height=60%>
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition/blob/main/images/Fly_CNN_performance.png">
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/Fly_CNN_diagram.png" width=60% height=60%>
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/Fly_CNN_performance.png">
