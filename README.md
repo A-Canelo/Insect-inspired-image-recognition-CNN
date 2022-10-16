@@ -1,4 +1,4 @@
-# Insect-inspired-image-recognition
+# Insect-inspired-image-recognition-CNN
 An image recognition Deep Learning model based on the visual system of fruit fly *Drosophila* for crazyflie drone deployment.
 
 This is a CNN based on the visual system of the fly *Drosophila*. The network classifies images in 3 categories (Collision, Rectangle, Square), and it is though to be deployed in a crazyflie drone to perform an autonomous flight. A quantized 8 bit model is provided as TFlite model file.
