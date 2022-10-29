@@ -23,7 +23,7 @@ A pre-trained quantized 8 bit model of *FlyDrosNet* is provided as TFlite model 
 
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/embedding_level.png" width=60% height=60%>
 
-Finally, we prepared an arena with high contrast background for testing the drone. On the walls we placed a suare, a rectangle, and a very big rectangle. According to the autonomous flight algorithm, the drone followed this sequence: take off -> go straight -> square detection -> turn left -> go straight -> rectangle detection -> turn right -> collision detection -> landing.
+Finally, we prepared an arena with high contrast background for testing the drone. On the walls we placed a square, a rectangle, and a very big rectangle. According to the autonomous flight algorithm, the drone followed this sequence: take off -> go straight -> square detection -> turn left -> go straight -> rectangle detection -> turn right -> collision detection -> landing.
 
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/autonomous_algorithm.png" width=40% height=40%>
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/drone_test.gif">
