@@ -13,8 +13,8 @@ We also provide a pattern dataset labeled as mentioned, and compared the perform
 | :---: | :---: | :---: | :---: |
 | ResNet101  | 97.66  | 42,658,051 | 489,290 |
 | MobileNetV2  | 96.66  | 2,261,251 | 26,450 |
-| FlyDrosNet  | 95.33  | 747,665 | 8,968 |
-| FlyDrosNet_8bit  | 84.00  | 747,665 | 753 |
+| FlyDrosNet  | **95.33**  | 747,665 | **8,968** |
+| FlyDrosNet_8bit  | **84.00**  | 747,665 | **753** |
 
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/performance_comparison.png">
 
