@@ -16,7 +16,7 @@ We also provide a pattern dataset labeled as mentioned, and compared the perform
 | FlyDrosNet  | 95.33  | 747,665 | 8,968 |
 | FlyDrosNet_8bit  | 84.00  | 747,665 | 753 |
 
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/Fly_CNN_performance.png">
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/performance_comparison.png">
 
 For embedding *FlyDrosNet* on the *ai-deck* GAP8, we have modified the *classification* example https://github.com/bitcraze/aideck-gap8-examples provided by *Bitcraze*. On the other hand, for embedding the algorithm for autonomous flight on the STM32, we have modified the app layer application *app_hello_world* of the *crazyflie* firmware https://github.com/bitcraze/crazyflie-firmware
 A pre-trained quantized 8 bit model of *FlyDrosNet* is provided as TFlite model file ready for embedding.
