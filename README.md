@@ -7,7 +7,7 @@ An image recognition Deep Learning model based on the visual system of fruit fly
 
 We also provide a pattern dataset labeled as mentioned, and compared the performance results to other relevant architectures, showing that we have achived a sufficient accuracy using low memory, which is essential for embedded deployment.
 
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/pattern_dataset_sample.png" width=60% height=60%>
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/pattern_dataset_sample.png" width=50% height=50%>
 
 | Architecture  | Top accuracy (%) | Parameters (#) | Memory (KB) |
 | :---: | :---: | :---: | :---: |
@@ -16,7 +16,7 @@ We also provide a pattern dataset labeled as mentioned, and compared the perform
 | FlyDrosNet  | **95.33**  | 747,665 | **8,968** |
 | FlyDrosNet_8bit  | **84.00**  | 747,665 | **753** |
 
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/performance_comparison.png">
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/performance_comparison.png" width=80% height=80%>
 
 For embedding *FlyDrosNet* on the *ai-deck* GAP8, we have modified the *classification* example https://github.com/bitcraze/aideck-gap8-examples provided by *Bitcraze*. On the other hand, for embedding the algorithm for autonomous flight on the STM32, we have modified the app layer application *app_hello_world* of the *crazyflie* firmware https://github.com/bitcraze/crazyflie-firmware <br/>
 A pre-trained quantized 8 bit model of *FlyDrosNet* is provided as TFlite model file ready for embedding.
@@ -25,7 +25,7 @@ A pre-trained quantized 8 bit model of *FlyDrosNet* is provided as TFlite model 
 
 Finally, we prepared an arena with high contrast background for testing the drone. On the walls we placed a suare, a rectangle, and a very big rectangle. According to the autonomous flight algorithm, the drone followed this sequence: take off -> go straight -> square detection -> turn left -> go straight -> rectangle detection -> turn right -> collision detection -> landing.
 
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/autonomous_algorithm.png" width=50% height=50%>
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/autonomous_algorithm.png" width=40% height=40%>
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/drone_test.gif">
 
 - **data** folder contains the pattern dataset file with 3000 images for training and other with 300 for testing, labeled as (Collision, Rectangle, Square).
