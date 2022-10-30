@@ -28,7 +28,7 @@ Finally, we prepared an arena with high contrast background for testing the dron
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/autonomous_algorithm.png" width=40% height=40%>
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/drone_test.gif">
 
-- **data** folder contains the pattern dataset file with 3000 images for training and other with 300 for testing, labeled as (Collision, Rectangle, Square).
-- **images** folder contains the image with the workflow diagrams, and the training results.
-- **models** folder contains the neural network with a training framework, which generates the weights .h5 file and also the quantized TFlite model.
-- **weights** folder contains the trained weights as TF model, and TFlite model.
+- **data** folder contains the pattern dataset file with 3000 images for training and other with 300 for testing, labeled as (Collision, Rectangle, Square). It also contains the training results for each model.
+- **images** folder contains the images used in this readme file.
+- **models** folder contains the 3 models compared in this work each with a training framework, which generates the weights .h5 file and also the quantized TFlite model. It also generates the .mat files with the results of the training performance.
+- **weights** folder contains the pre-trained weights of *FlyDrosNet* as .h5, and .tflite for the quantized version.
