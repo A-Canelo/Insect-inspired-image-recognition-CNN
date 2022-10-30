@@ -28,6 +28,8 @@ Finally, we prepared an arena with high contrast background for testing the dron
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/autonomous_algorithm.png" width=40% height=40%>
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/drone_test.gif">
 
+Instructions for deployment on *crazyflie 2.1* and *ai-deck*:
+
 Folders:
 - **data** folder contains the pattern dataset file with 3000 images for training and other with 300 for testing, labeled as (Collision, Rectangle, Square). It also contains the training results for each model.
 - **images** folder contains the images used in this readme file.
