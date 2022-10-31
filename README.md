@@ -1,5 +1,5 @@
 # Insect-inspired-image-recognition-CNN
-An image recognition Deep Learning model based on the visual system of fruit fly *Drosophila*, *FlyDrosNet*, for embedding on a *crazyflie 2.1* drone STM32 and *ai-deck* GAP8 to perform an autonomous flight. 
+An image recognition Deep Learning model based on the visual system of fruit fly *Drosophila*, *FlyDrosNet*, for embedding on a *crazyflie 2.1* drone STM32 and *ai-deck* GAP8 to perform an autonomous flight.
 
 ## Architecture design
 *FlyDrosNet* is a CNN based on the visual system of the fly *Drosophila*. The architecture uses the neural pathways necessary for feature and looming detection. It has 3 outputs to classify images in 3 categories (Collision, Rectangle, Square).
