@@ -1,0 +1,2 @@
+obj-y += hello_world.o
+obj-y += uart_dma_pulp.o
