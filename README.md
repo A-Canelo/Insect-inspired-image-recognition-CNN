@@ -34,7 +34,7 @@ The necessary components for deployment are as follow:
 - Flow deck v2
 - AI deck 1.1
 
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/necessary_components.png" width=60% height=60%>
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/necessary_components.jpg" width=60% height=60%>
 
 Instructions for deployment on *crazyflie 2.1* and *ai-deck*.
 - Download *bitcraze-vm* https://github.com/bitcraze/bitcraze-vm/releases
