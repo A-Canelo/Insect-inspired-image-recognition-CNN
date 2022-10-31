@@ -64,6 +64,7 @@ $ cfloader flash build/cf2.bin stm32-fw -w radio://0/80/2M/E7E7E7E7E7
 
 Folders:
 - **data** folder contains the pattern dataset file with 3000 images for training and other with 300 for testing, labeled as (Collision, Rectangle, Square). It also contains the training results for each model.
+- **deployment** folder contains the codes for the deployment of the *FlyDrosNet* on *ai-deck* GAP8 and autonomous fligth algorithm on STM32.
 - **images** folder contains the images used in this readme file.
 - **models** folder contains the 3 models compared in this work each with a training framework, which generates the weights .h5 file and also the quantized TFlite model. It also generates the .mat files with the results of the training performance.
 - **weights** folder contains the pre-trained weights of *FlyDrosNet* as .h5, and .tflite file for the quantized version.
