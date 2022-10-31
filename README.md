@@ -22,7 +22,7 @@ We also provide a pattern dataset labeled as mentioned, and compared the perform
 For embedding *FlyDrosNet* on the *ai-deck* GAP8, we have modified the *classification* example https://github.com/bitcraze/aideck-gap8-examples provided by *Bitcraze*. On the other hand, for embedding the algorithm for autonomous flight on the STM32, we have modified the app layer application *app_hello_world* of the *crazyflie* firmware https://github.com/bitcraze/crazyflie-firmware <br/>
 A pre-trained quantized 8 bit model of *FlyDrosNet* is provided as TFlite model file ready for embedding.
 
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/embedding_level.png" width=60% height=60%>
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/embedding_level.png" width=65% height=65%>
 
 Finally, we prepared an arena with high contrast background for testing the drone. On the walls we placed a square, a rectangle, and a very big rectangle. According to the autonomous flight algorithm, the drone followed this sequence: take off -> go straight -> square detection -> turn left -> go straight -> rectangle detection -> turn right -> collision detection -> landing.
 
@@ -39,7 +39,7 @@ The necessary components for deployment are as follow:
 
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/necessary_components.jpg" width=40% height=40%>
 
-Instructions for deployment on *crazyflie 2.1* and *ai-deck*.
+Instructions for deployment on *crazyflie 2.1* and *ai-deck*:
 - Download *bitcraze-vm* https://github.com/bitcraze/bitcraze-vm/releases
 - On the vm clone *aideck-gap8-examples*, and *crazyflie-firmware* repositories: <br/>
 https://github.com/bitcraze/aideck-gap8-examples <br/>
