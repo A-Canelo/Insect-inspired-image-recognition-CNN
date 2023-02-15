@@ -8,7 +8,7 @@ An image recognition Deep Learning model based on the visual system of fruit fly
 
 We also provide a pattern dataset labeled as mentioned, and compared the performance results to other relevant architectures, showing that we have achived a sufficient accuracy using low memory, which is essential for embedded deployment.
 
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/pattern_dataset_sample.png" width=30% height=30%>
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/pattern_dataset_sample.png" width=35% height=35%>
 
 | Architecture  | Top accuracy (%) | Parameters (#) | Memory (KB) |
 | :---: | :---: | :---: | :---: |
