@@ -4,11 +4,11 @@ An image recognition Deep Learning model based on the visual system of fruit fly
 ## Architecture design
 *FlyVisNet* is a CNN based on the visual system of the fly *Drosophila*. The architecture uses the neural pathways necessary for feature and looming detection. It has 3 outputs to classify images in 3 categories (Collision, Rectangle, Square).
 
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/FlyVisNet_diagram.png" width=60% height=60%>
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/FlyVisNet_diagram.png" width=70% height=70%>
 
 We also provide a pattern dataset labeled as mentioned, and compared the performance results to other relevant architectures, showing that we have achived a sufficient accuracy using low memory, which is essential for embedded deployment.
 
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/pattern_dataset_sample.png" width=50% height=50%>
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/pattern_dataset_sample.png" width=30% height=30%>
 
 | Architecture  | Top accuracy (%) | Parameters (#) | Memory (KB) |
 | :---: | :---: | :---: | :---: |
