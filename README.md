@@ -28,7 +28,7 @@ Finally, we prepared an arena with high contrast background for testing the dron
 In a second test the drone performed a surveillance flight according to the second algorithm. The drone followed this sequence: take off -> go straight -> rectangle detection -> go straight -> collision detection -> turn away -> go straight -> rectangle detection -> go straight -> collision detection -> turn away -> go straight -> rectangle detection -> go straight -> turn away -> landing.
 
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/autonomous_algorithm.png" width=40% height=40%>
-<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/visually_guided.gif">
+<img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/visually-guided.gif">
 <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/surveillance.gif">
 
 ---
