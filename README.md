@@ -59,7 +59,7 @@ $ cfloader flash examples/ai/classification/BUILD/GAP8_V2/GCC_RISCV_FREERTOS/tar
 $ make all clean
 ```
 ```
-$ cfloader flash build/cf2.bin stm32-fw -w radio://0/80/2M/E7E7E7E7E7
+$ cfloader flash ./build/cf2.bin stm32-fw -w radio://0/80/2M/E7E7E7E7E7
 ```
 
 Folders:
