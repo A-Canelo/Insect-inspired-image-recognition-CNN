@@ -9,13 +9,13 @@ from pymatreader import read_mat
 import seaborn as sns
 ##################################
 ######## Load data ###############
-data = read_mat('../data/FlyDrosNet_perf.mat')
+data = read_mat('../data/FlyVisNet_perf.mat')
 acc = data['hist_acc']
 acctest = data['hist_testacc']
 topac = data['topmax']
 topactest = data['topmax_test']
 topac_lite = data['topmax_lite']
-print('FlyDrosNet \n' 'Top acc =', topac, '\n' 'Top acc test =', topactest, '\n' 'Top acc test (8bit) =', topac_lite, '\n')
+print('FlyVisNet \n' 'Top acc =', topac, '\n' 'Top acc test =', topactest, '\n' 'Top acc test (8bit) =', topac_lite, '\n')
 data2 = read_mat('../data/ResNet101_perf.mat')
 acc2 = data2['hist_acc']
 acctest2 = data2['hist_testacc']
@@ -36,6 +36,6 @@ plt.plot(acc,color="blue", linestyle='dotted', alpha=0.5); plt.plot(acctest,colo
 plt.plot(acc2,color="red", linestyle='dotted', alpha=0.5); plt.plot(acctest2,color="red", alpha=0.5)
 plt.plot(acc3,color="green", linestyle='dotted', alpha=0.5); plt.plot(acctest3,color="green", alpha=0.5)
 plt.title('Performance on pattern dataset \n (3000/300 frames train/test)'); plt.ylabel('Accuracy (%)'); plt.xlabel('Iterations')
-plt.legend(['FlyDrosNet train', 'FlyDrosNet test', 'ResNet101 train', 'ResNet101 test',
+plt.legend(['FlyVisNet train', 'FlyVisNet test', 'ResNet101 train', 'ResNet101 test',
             'MobileNetV2 train', 'MobileNetV2 test'], loc='lower right')
 plt.show()
