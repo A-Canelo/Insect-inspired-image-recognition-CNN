@@ -32,10 +32,6 @@ In a second test the drone performed a surveillance flight according to the seco
   <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/visually-guided.gif" />
   <img src="https://github.com/AngelCanelo/Insect-inspired-image-recognition-CNN/blob/main/images/surveillance.gif" />
 </p>
-https://youtu.be/Tedu2W9-55s
-</p>
-https://youtu.be/LNgJ-dkv7S0
-</p>
 
 ---
 ## Deployment
